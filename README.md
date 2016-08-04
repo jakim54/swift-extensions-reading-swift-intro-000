@@ -64,7 +64,7 @@ This also works, but.. if we want to be able to utilize this function throughout
 
 **Extensions** 
 
-[Ext](https://media.giphy.com/media/PAQgKcl8JqZwc/giphy.gif)
+![](https://media.giphy.com/media/PAQgKcl8JqZwc/giphy.gif)
 
 Extensions add new functionality to an existing class, structure, enumeration, or protocol type. This includes the ability to extend types for which you do not have access to the original source code (known as retroactive modeling).
 
