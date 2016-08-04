@@ -41,7 +41,7 @@ struct Point {
 }
 ```
 
-If we take a look at `Int` for a minute, when we create a variable of type `Int`, that variable has access to all of the functions & properties implemented by Apple.
+Lets take a look at `Int` for a minute.
 ```swift
 var coolNumber = 752
 ```
@@ -56,6 +56,12 @@ coolNumber * coolNumber
 Easy enough. But what if we want to be able to provide this functionality throughout our entire application? Can we solve that problem by doing it like this everywhere we need to square the number? Sure. But there's an easier way. Is creating a function the answer?
 
 ```swift
+func squareNumber(number: Int) -> Int {
+    return number * number
+}
+```
+
+```swift
 var coolNumberSquared = squareNumber(coolNumber)
 // 565504
 ```
@@ -64,7 +70,7 @@ This also works, but.. if we want to be able to utilize this function throughout
 
 **Extensions** 
 
-![](http://i.giphy.com/PAQgKcl8JqZwc.gif)
+![](https://media.giphy.com/media/9AvtBC3HkSTlu/giphy.gif)
 
 Extensions add new functionality to an existing class, structure, enumeration, or protocol type. This includes the ability to extend types for which you do not have access to the original source code (known as retroactive modeling).
 
