@@ -1,4 +1,4 @@
-# Extensions - Reading
+# Extensions
 
 ![Ruth](http://i.imgur.com/W8XC1YB.jpg?1)  
 
